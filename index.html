@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+</head>
+<body>
+    <div>
+        <nav>
+            <a href="inicio.html">INICIO</a>
+            <a href="quem_sou.html">QUEM SOU</a>
+            <a href="estudos.html">ESTUDOS</a>
+            <a href="experiencia.html">EXPERIENCIA</a>
+            <a href="contato.html">CONTATO</a>
+        </nav>
+    </div>
+
+    <main>
+        <div>
+            <img src="img/tecnologia16.jpg" width="300" alt="notebook na area de trabalho">
+            <h1>EDUARDO ALEJANDRO LIZARRAGA VILLARROEL</h1>
+            <h2>Especialista em Tecnologia</h2>
+        </div>
+        <article>
+            <img src="img/backup.jpg" width="300" alt="pasta de segurança">
+            <p>Existem muitas ameaças que podem prejudicar muitos dias de trabalho, portanto, ter segurança em seus arquivos é uma boa opção para garantir um andamento protegido.</p>
+        </article>
+        <article>
+            <video src="video/final.mp4" width="400" height="200" controls></video>
+            <p>Você quer que sua empresa seja conhecida e popular e aumente suas vendas. Eu também tenho experiência em fazer marketing digital para você.</p>
+        </article>
+    </main>
+    <section>
+        <img src="img/fale_conosco.png" width="300" alt="email">
+        <form id="form-order">
+			
+            <p>
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name"
+                placeholder="João Cardoso"
+                required
+                autofocus
+                autocomplete />
+            </p>
+            <p>
+				<label for="cel">Telefone:</label>
+				<input type="tel" name="cel" id="cel"
+				placeholder="+5544991717552"/>
+			</p>
+            <label for="correo">Correo:</label>
+				<input type="email" name="correo" id="correo"
+				placeholder="exemplo@gmail.com"
+                autocomplete/>
+			</p>
+            <p>
+				<label for="Data">Data de envio:</label>
+				<input type="date" name="data" id="data" min="2022-07-16"/>
+			</p>
+            <p>
+				<fieldset>
+					<legend>Prioridade</legend>
+						<p><label> <input type="radio" name="priority" value="baja" checked>baja</label></p>
+						<p><label> <input type="radio" name="priority" value="media">media</label></p>
+						<p><label> <input type="radio" name="priority" value="alta">alta</label></p>
+				</fieldset>
+			</p>
+            <p> <input type="submit" value="Enviar" /> </p>
+		
+		</form>
+
+    </section>
+    
+</body>
+</html>
